@@ -1,0 +1,75 @@
+{
+  "URL" : "https://automationexercise.com/",
+
+  "Login" : {
+    "ValidCredentials": {
+      "Email" : "ibra.test1@gmail.com",
+      "Password": "123456"
+    },
+    "InvalidCredentials": {
+      "InvalidUsername": {
+        "Email" : "eybad@gmail.com",
+        "Password": "123456"
+      },
+      "InvalidPassword": {
+        "Email" : "eyad@gmail.com",
+        "Password": "12345"
+      }
+    }
+  },
+
+  "TestCaseURL" : {
+    "TestCaseUrl" : "https://automationexercise.com/test_cases"
+  },
+
+
+  "ContactUsForm" : {
+    "Name" : "ebrahim",
+    "Email" : "Ebrahimovic.salem11@gmail.com",
+    "Subject" : "Test",
+    "Message" : "ContactUsForm Message",
+    "File" : "C:\\Users\\Lenovo\\Downloads\\CLPBRDb9AzIL.png"
+  },
+
+  "Registration" : {
+    "ValidCredentials":{
+    "RegisterName" : "ibrahim",
+    "RegisterEmail" : "Ebrahimovic.salem11@gmail.com"
+
+  }
+  },
+
+
+  "RegistrationAccountForm" : {
+    "ValidRegisterAccountCredentials":{
+      "RegisterAccountPassword" : "123456789",
+      "RegisterBirthDay" : "1",
+      "RegisterBirthMonth" : "January",
+      "RegisterBirthYear" : "2021",
+      "FirstNameAddressA" : "Ibrahim",
+      "LastNameAddressA" : "Salem",
+      "CompanyNameAddressA" : "Google",
+      "AddressNameA1" : "London32",
+      "AddressNameA2" : "London100",
+      "CountryAddressA" : "Canada",
+      "StateA" : "Hero of Automation",
+      "CityA" : "London",
+      "ZipCodeA" : "123456",
+      "MobileNumberA" : "673723643"
+    }
+  },
+
+
+  "SearchOnProducts" : {
+    "SearchedOnProducts":{
+      "Product" : "Men Tshirt"
+    }
+  },
+
+  "Subscriptions" : {
+    "subscriptionEmail":{
+      "EmailAddress" : "test.num1@gmail.com"
+    }
+  }
+
+}

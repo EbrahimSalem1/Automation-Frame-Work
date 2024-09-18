@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+<class name="login.LoginTests"/>
+        </classes>
+    </test>
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="registration.RegistrationTests"/>
+        </classes>
+    </test>
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="homeSub.SubscriptionTests"/>
+        </classes>
+    </test>
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="contactUsForm.ContactUsFormTest"/>
+        </classes>
+    </test>
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCase.TestCasePage"/>
+        </classes>
+    </test>
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Products.ProductTests"/>
+            <class name="Products.SearchProductTests"/>
+        </classes>
+    </test>
+    <test name="Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="logout.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
