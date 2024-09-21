@@ -18,6 +18,12 @@ jobs:
         sudo apt-get install -y chromium-browser
         sudo apt-get install -y chromium-chromedriver
 
+    - name: Install ChromeDriver
+      run: |
+        sudo apt-get install -yqq unzip
+        curl -sS -o /tmp/chromedriver.zip "https://chromedriver.storage.googleapis.com/$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip"
+        sudo unzip /tmp/chromedriver.zip -d /usr/local/bin/    
+
     - uses: actions/checkout@v4
     - name: Set up JDK 17
       uses: actions/setup-java@v4
