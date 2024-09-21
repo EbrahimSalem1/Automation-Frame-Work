@@ -20,4 +20,4 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn test -Dtestng=regression
+        run: mvn test -D testng=regression
