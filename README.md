@@ -1,6 +1,6 @@
 <h1># Automation Frame-Work </h1> 
 <p>using Selenium with java - Page Object Model (POM) 
-  - Data Driven Test (Data Model) - Extent Report - CI/CD Github Actions </p> 
+  - Data Driven Test (Data Model) - Extent Report - CI/CD Github Actions - Docker </p> 
   
 
 <h2>#Test Case 1: Register User</h2>
